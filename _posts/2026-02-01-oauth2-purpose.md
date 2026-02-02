@@ -1,8 +1,6 @@
 ---
 title: "The Purpose of OAuth2: Why Do We Use Tokens?"
 date: 2026-02-01
-categories: [OAuth2, Introduction]
-tags: [auth, security]
 description: "Understanding the core philosophy of OAuth2: Securely delegating data access without sharing passwords."
 ---
 
