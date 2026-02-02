@@ -1,6 +1,8 @@
 ---
 title: "The Purpose of OAuth2: Why Do We Use Tokens?"
-date: 2026-02-01
+date: 2026-02-01 12:00:00 +0900
+categories: [OAuth2, Theory]
+tags: [oauth2, security, delegation]
 description: "Understanding the core philosophy of OAuth2: Securely delegating data access without sharing passwords."
 ---
 
@@ -49,8 +51,6 @@ The mechanics of OAuth2 are very similar to staying at a hotel.
     * The card only opens **specific rooms (Scopes)**.
     * The card **Expires** automatically after your checkout time.
     * If lost, you can deactivate the card without changing the hotel's master locks. (Even if a guest keeps the physical card, it becomes useless once invalidated in the system.)
-
-
 
 ---
 
