@@ -22,8 +22,6 @@ Before OAuth2, if a third-party app wanted to access your data (e.g., your Googl
 2. **Excessive Permissions:** Providing a password gives the app unlimited access to everything (emails, payments, settings, etc.). This makes it impossible to implement **Access Control Lists (ACL)** or granular authorization.
 3. **Difficulty in Revocation:** You cannot revoke access for just one specific app. To stop an app from accessing your data, you would have to change your main password, which breaks every other service you use.
 
-
-
 ---
 
 ## 2. Three Core Objectives of OAuth2
