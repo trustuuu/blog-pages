@@ -1,0 +1,7 @@
+/* 사이드바 하단의 "A text focused..." 문구만 숨기기 */
+#sidebar-bottom > p {
+  display: none !important;
+}
+
+/* (선택 사항) 사이드바 하단 전체(아이콘 포함)를 숨기고 싶을 때만 아래 주석 해제 */
+/* #sidebar-bottom { display: none !important; } */
