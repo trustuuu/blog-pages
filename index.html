@@ -1,4 +1,201 @@
 ---
 layout: home
 # Index page
+title: Welcome to James YS Chang blog!
 ---
+
+# OAuth 2.0 – A Practical Guide
+
+Welcome to my OAuth 2.0 knowledge base.
+
+This blog is dedicated to explaining **OAuth 2.0** from both a **theoretical** and **practical engineering** perspective.  
+It is designed for:
+
+- Backend engineers  
+- Frontend engineers  
+- Security engineers  
+- SaaS architects  
+- Anyone implementing authentication or authorization systems
+
+You will find clear explanations, diagrams, and real-world implementation patterns.
+
+---
+
+## 📌 What is OAuth 2.0?
+
+OAuth 2.0 is an **authorization framework** that allows an application to obtain limited access to a user’s resources on another service **without exposing the user’s credentials**.
+
+OAuth 2.0 is used by:
+- Google
+- Microsoft
+- GitHub
+- Okta
+- Auth0
+- Almost every modern API platform
+
+It is the foundation for:
+- Single Sign-On (SSO)
+- API security
+- Token-based authentication
+- Delegation and impersonation
+- Zero Trust architectures
+
+---
+
+## 🎯 Goals of This Blog
+
+This blog aims to:
+
+✔ Explain OAuth 2.0 concepts clearly  
+✔ Cover every OAuth 2.0 grant type  
+✔ Show real implementation examples  
+✔ Explain security implications  
+✔ Bridge theory with production reality  
+
+Topics will include:
+
+- OAuth 2.0 roles and terminology  
+- Access tokens, refresh tokens, ID tokens  
+- Authorization Server vs Resource Server  
+- Grant types and when to use them  
+- Token storage and validation  
+- Multi-tenant OAuth  
+- OAuth and modern identity providers  
+- OAuth for AI agents and APIs  
+
+---
+
+## 🧩 Core OAuth 2.0 Roles
+
+OAuth 2.0 defines four main roles:
+
+- **Resource Owner** – the user  
+- **Client** – the application requesting access  
+- **Authorization Server** – issues tokens  
+- **Resource Server** – hosts protected APIs  
+
+Understanding these roles is critical before implementing any flow.
+
+---
+
+## 🔁 OAuth 2.0 Grant Types
+
+This blog will cover all major grant types:
+
+- Authorization Code (with PKCE)
+- Client Credentials
+- Refresh Token
+- Device Code
+- Implicit (legacy)
+- Resource Owner Password (legacy)
+- Token Exchange (RFC 8693)
+- JWT Bearer
+- SAML Bearer
+
+Each grant type will be explained with:
+
+- Sequence diagrams  
+- Security considerations  
+- Use cases  
+- Example requests and responses  
+
+---
+
+## 🔐 OAuth vs Authentication
+
+OAuth 2.0 is **not an authentication protocol**.  
+It is an **authorization framework**.
+
+Authentication is typically layered using:
+
+- OpenID Connect (OIDC)
+- JWT identity tokens
+- External identity providers
+
+This blog will explain:
+
+- OAuth vs OIDC  
+- How ID tokens work  
+- How login flows are built on OAuth  
+
+---
+
+## 🏗️ Practical Topics
+
+You will also find articles about:
+
+- Token introspection  
+- JWKS and signature verification  
+- Scopes vs permissions vs roles  
+- Audience and issuer validation  
+- Multi-tenant OAuth servers  
+- Secure token storage  
+- API gateways and OAuth  
+- OAuth for microservices  
+- OAuth for AI agents  
+
+---
+
+## 🧠 Who This Blog Is For
+
+This blog assumes:
+
+- Basic HTTP knowledge  
+- REST API familiarity  
+- Some understanding of JWT  
+- Interest in security and identity systems  
+
+No prior OAuth experience is required — articles are structured progressively.
+
+---
+
+## 🚀 How to Use This Blog
+
+Start with:
+
+1. **What is OAuth 2.0?**
+2. **OAuth 2.0 Roles and Tokens**
+3. **Authorization Code Flow**
+4. **Scopes and Permissions**
+5. **Security Best Practices**
+
+Each article builds on the previous one.
+
+---
+
+## 📚 Roadmap
+
+Planned sections:
+
+- OAuth 2.0 fundamentals  
+- Grant types deep dive  
+- Security attacks and mitigations  
+- Implementation guides  
+- Multi-provider OAuth  
+- OAuth for SaaS platforms  
+- OAuth for AI and agents  
+
+---
+
+## ✍️ About This Blog
+
+This blog documents real-world OAuth 2.0 engineering patterns based on:
+
+- Production OAuth servers  
+- SaaS multi-tenant systems  
+- Identity provider integrations  
+- API security design  
+- AI agent authentication  
+
+The goal is to move beyond textbook OAuth and into **how it is actually built and operated**.
+
+---
+
+## 📬 Contact
+
+If you have questions, suggestions, or corrections, feel free to open an issue or pull request.
+
+---
+
+**OAuth is not just a protocol — it is the backbone of modern identity and API security.  
+This blog exists to make it understandable and usable.**
